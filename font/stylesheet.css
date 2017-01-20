@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.eot');
+    src: url('montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), url('montserrat-regular-webfont.woff2') format('woff2'), url('montserrat-regular-webfont.woff') format('woff'), url('montserrat-regular-webfont.ttf') format('truetype'), url('montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sanslight';
+    src: url('josefinsans-light-webfont.eot');
+    src: url('josefinsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('josefinsans-light-webfont.woff2') format('woff2'),
+         url('josefinsans-light-webfont.woff') format('woff'),
+         url('josefinsans-light-webfont.ttf') format('truetype'),
+         url('josefinsans-light-webfont.svg#josefin_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sansbold';
+    src: url('josefinsans-bold-webfont.eot');
+    src: url('josefinsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('josefinsans-bold-webfont.woff2') format('woff2'),
+         url('josefinsans-bold-webfont.woff') format('woff'),
+         url('josefinsans-bold-webfont.ttf') format('truetype'),
+         url('josefinsans-bold-webfont.svg#josefin_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pwhandysocialiconsmedium';
+    src: url('PWHandySocialIcons-webfont.eot');
+    src: url('PWHandySocialIcons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PWHandySocialIcons-webfont.woff2') format('woff2'),
+         url('PWHandySocialIcons-webfont.woff') format('woff'),
+         url('PWHandySocialIcons-webfont.ttf') format('truetype'),
+         url('PWHandySocialIcons-webfont.svg#pwhandysocialiconsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pwsmalliconsmedium';
+    src: url('PWSmallIcons-webfont.eot');
+    src: url('PWSmallIcons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PWSmallIcons-webfont.woff2') format('woff2'),
+         url('PWSmallIcons-webfont.woff') format('woff'),
+         url('PWSmallIcons-webfont.ttf') format('truetype'),
+         url('PWSmallIcons-webfont.svg#pwsmalliconsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('Lobster 1.4-webfont.eot');
+    src: url('Lobster 1.4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lobster 1.4-webfont.woff2') format('woff2'),
+         url('Lobster 1.4-webfont.woff') format('woff'),
+         url('Lobster 1.4-webfont.ttf') format('truetype'),
+         url('Lobster 1.4-webfont.svg#lobster_1.4regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sonsie_oneregular';
+    src: url('SonsieOne-Regular-webfont.eot');
+    src: url('SonsieOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SonsieOne-Regular-webfont.woff2') format('woff2'),
+         url('SonsieOne-Regular-webfont.woff') format('woff'),
+         url('SonsieOne-Regular-webfont.ttf') format('truetype'),
+         url('SonsieOne-Regular-webfont.svg#sonsie_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'emblema_oneregular';
+    src: url('EmblemaOne-Regular-webfont.eot');
+    src: url('EmblemaOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('EmblemaOne-Regular-webfont.woff2') format('woff2'),
+         url('EmblemaOne-Regular-webfont.woff') format('woff'),
+         url('EmblemaOne-Regular-webfont.ttf') format('truetype'),
+         url('EmblemaOne-Regular-webfont.svg#emblema_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,433 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>X Jump</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Salva" />
+    <link rel="shortcut icon" href="../img/icono.png">
+    <script src="../js/jquery.min.js"></script>
+    <link href="../font/stylesheet.css" rel="stylesheet" />
+    <script src="../js/event.js"></script>
+    <link rel="stylesheet" href="../css/event.css" />
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="menu-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="#" class="activoR">Eventos</a>
+            <a href="#">Reserva</a>
+            <a href="#">Contacto</a>
+        </div>
+        <header>
+            <nav>
+                <div id="cajaLogo">
+                </div>
+                <div id="menu">
+                    <a id="pull" href="#"></a>
+                </div>
+                <div id="enlaces">
+                    <ul class="ca-menu">
+                        <li>
+                            <a href="../index.html">
+                                <span class="ca-icon" id="ca-icon-1">2</span>
+                                <span class="ca-main">Inicio</span>
+                            </a>
+                        </li>
+
+                        <li class="activo">
+                            <a href="#">
+                                <span class="ca-icon">(</span>
+                                <span class="ca-main">Eventos</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span class="ca-icon">O</span>
+                                <span class="ca-main">Reserva</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span class="ca-icon">3</span>
+                                <span class="ca-main">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div id="wrapper">
+            <div class="oculto" id="para1">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/tandem.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Salto en Tandem</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                    <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oculto" id="para2">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/para.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Curso de Paracaidismo</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                    <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oculto" id="pente1">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/pente.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Curso de Parapente</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                    <span class="encabezamiento">Duración</span> Medio día, por vuelo, preparación, vuelo y desmontaje. El vuelo suele durar unos 15 minutos. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu vuelo.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oculto" id="pente2">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/penteM.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Curso de Parapente Motor</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                    <span class="encabezamiento">Duración</span> Medio día, por vuelo, preparación, vuelo y desmontaje. El vuelo suele durar unos 15 minutos. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu vuelo.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oculto" id="salto1">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/salto.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Curso de Salto Inicial</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                    <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Imprescindible Licencia Federativa de Paracaidismo.</li>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oculto" id="salto2">
+                <div class="cerrar">
+                    <span class="x">`</span> Cerrar
+                </div>
+                <div class="cajaVideo">
+                    <video class="video" poster="../img/logo.png" src="../video/base.mp4">
+                    </video>
+                    <div class="play">
+                    </div>
+                </div>
+                <div class="titulo-Oculto">Obtén tu número BASE</div>
+                <div class="texto-Oculto">
+                    <span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                    <span class="encabezamiento">Duración</span> Medio día, por salto, preparación de la plataforma, salto y desmontaje de la plataforma. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu salto.
+                    <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                    <ul>
+                        <li>Imprescindible Licencia Federativa de Paracaidismo.</li>
+                        <li>Es necesario tener al menos 18 años de edad.</li>
+                        <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                        <li>No padecer dolencias cardíacas, o de huesos.</li>
+                        <li>No estar embarazada.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="container">
+                <section id="paracaidas">
+                    <div class="imagen" id="paracaidasImg-1" data-modal="para1">
+                        <div class="event-Titulo">Salto en Tandem</div>
+                        <div class="texto" id="paracaidasTxt-1">
+                            <p>Acompañado por un Instructor profesional, vas a disfrutar de tu primer salto en paracaídas!. Tras recibir una corta explicación, subiremos hasta 4000 m y enganchado con total seguridad a tu instructor saltarás y podrás entonces disfrutar de la magia de un minuto de caída libre, hasta llegar a la altura de 1500 m cuando tu instructor abrirá el paracaídas. Pudiendo disfrutar de un vuelo con vuestro paracaídas Tandem.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil">Salto en Tandem</div>
+                        <div class="texto-Movil">
+                            <p>Acompañado por un Instructor profesional, vas a disfrutar de tu primer salto en paracaídas!. Tras recibir una corta explicación, subiremos hasta 4000 m y enganchado con total seguridad a tu instructor saltarás y podrás entonces disfrutar de la magia de un minuto de caída libre, hasta llegar a la altura de 1500 m cuando tu instructor abrirá el paracaídas. Pudiendo disfrutar de un vuelo con vuestro paracaídas Tandem.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/tandem.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil">
+                            <p><span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                                <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="imagen" id="paracaidasImg-2" data-modal="para2">
+                        <div class="event-Titulo">Curso Paracaidismo</div>
+                        <div class="texto" id="paracaidasTxt-2">
+                            <p>Si ya has probado la fascinante sensación de saltar en paracaídas y de la caída libre mediante un salto Tandem y te gustaría llevar la experiencia un poco más lejos, o si nunca has saltado pero te gustaría aprender a saltar por ti mismo, te proponemos nuestro curso de paracaidismo, donde adquirirá todos los conocimientos para poder saltar por ti mismo, aprendiendo a controlar la caída libre, abrir el paracaídas y aterrizar.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil par">Curso Paracaidismo</div>
+                        <div class="texto-Movil par">
+                            <p>Si ya has probado la fascinante sensación de saltar en paracaídas y de la caída libre mediante un salto Tandem y te gustaría llevar la experiencia un poco más lejos, o si nunca has saltado pero te gustaría aprender a saltar por ti mismo, te proponemos nuestro curso de paracaidismo, donde adquirirá todos los conocimientos para poder saltar por ti mismo, aprendiendo a controlar la caída libre, abrir el paracaídas y aterrizar.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/para.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil par">
+                            <p><span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                                <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="parapente">
+                    <div class="imagen" id="parapenteImg-1" data-modal="pente1">
+                        <div class="event-Titulo">Curso Parapente</div>
+                        <div class="texto" id="parapenteTxt-1">
+                            <p>En este curso aprenderas a revisar e instalar tu equipo de vuelo, a inflar y a despegar el parapente. Las prácticas en el aire las harás volando en un parapente biplaza acompañado de tu monitor (2 vuelos): pilotando tú. Una vez aprendido el pilotaje básico, volar tú solo pilotando un parapente monoplaza (4 vuelos), asistido por tus monitores a través de la radio. Con nuestro método podrás volar de verdad desde el primer día !!.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil">Curso Parapente</div>
+                        <div class="texto-Movil">
+                            <p>En este curso aprenderas a revisar e instalar tu equipo de vuelo, a inflar y a despegar el parapente. Las prácticas en el aire las harás volando en un parapente biplaza acompañado de tu monitor (2 vuelos): pilotando tú. Una vez aprendido el pilotaje básico, volar tú solo pilotando un parapente monoplaza (4 vuelos), asistido por tus monitores a través de la radio. Con nuestro método podrás volar de verdad desde el primer día !!.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/pente.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil">
+                            <p><span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                                <span class="encabezamiento">Duración</span> Medio día, por vuelo, preparación, vuelo y desmontaje. El vuelo suele durar unos 15 minutos. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu vuelo.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="imagen" id="parapenteImg-2" data-modal="pente2">
+                        <div class="event-Titulo">Curso Parapente Motor</div>
+                        <div class="texto" id="parapenteTxt-2">
+                            <p>En este Curso aprenderás a pilotar un paramotor y podrás volar en aquellos lugares que siempre habías imaginado. El objetivo de este curso es que adquieras los conocimientos y habilidades para volar un paramotor sólo. Si no tienes ninguna experiencia volando en parapente, en este curso te enseñaremos a volar un parapente SIN motor, que es más fácil. Para despues realizar tus vuelos en parapente a motor.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil par">Curso Parapente Motor</div>
+                        <div class="texto-Movil par">
+                            <p>En este Curso aprenderás a pilotar un paramotor y podrás volar en aquellos lugares que siempre habías imaginado. El objetivo de este curso es que adquieras los conocimientos y habilidades para volar un paramotor sólo. Si no tienes ninguna experiencia volando en parapente, en este curso te enseñaremos a volar un parapente SIN motor, que es más fácil. Para despues realizar tus vuelos en parapente a motor.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/penteM.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil par">
+                            <p><span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                                <span class="encabezamiento">Duración</span> Medio día, por vuelo, preparación, vuelo y desmontaje. El vuelo suele durar unos 15 minutos. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu vuelo.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="salto">
+                    <div class="imagen" id="saltoImg-1" data-modal="salto1">
+                        <div class="event-Titulo">Curso de Salto Inicial</div>
+                        <div class="texto" id="saltoTxt-1">
+                            <p>Este curso te enseñará lo básico del salto BASE; cómo empacar y armar tu plataforma BASE, y saltaras bajo la supervisión de un profesional. Aprenderás acerca de las precauciones necesarias en salto BASE: cómo evaluar la velocidad del viento, dirección del viento, áreas de aterrizaje y si puedes saltar de manera segura desde un objeto. También aprenderás cómo manejar una apertura de paracaídas no alineada.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil">Curso de Salto Inicial</div>
+                        <div class="texto-Movil">
+                            <p>Este curso te enseñará lo básico del salto BASE; cómo empacar y armar tu plataforma BASE, y saltaras bajo la supervisión de un profesional. Aprenderás acerca de las precauciones necesarias en salto BASE: cómo evaluar la velocidad del viento, dirección del viento, áreas de aterrizaje y si puedes saltar de manera segura desde un objeto. También aprenderás cómo manejar una apertura de paracaídas no alineada.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/salto.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil">
+                            <p><span class="encabezamiento">Temporada</span> Sábados y domingos durante todo el año.
+                                <span class="encabezamiento">Ropa</span> Es necesario llevar zapatillas de deporte (no botas de montaña) y ropa cómoda. En invierno hay que traer guantes y ropa de abrigo.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Imprescindible Licencia Federativa de Paracaidismo.</li>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="imagen" id="saltoImg-2" data-modal="salto2">
+                        <div class="event-Titulo">Obtén tu número BASE</div>
+                        <div class="texto" id="saltoTxt-2">
+                            <p>Un número BASE es un número único que ha sido emitido desde principios de los 80s a personas que saltaban desde todos los cuatro objetos (Edificio (B), Antena (A), Arco (S), y Precipicios (E)). Aproximadamente unos 1400 números BASE han sido emitidos hasta la fecha. Nosotros te ayudaremos a conseguirlo organizandote los saltos desde diferentes objetivos.</p>
+                        </div>
+                    </div>
+                    <div class="movil">
+                        <div class="event-Titulo-Movil par">Obtén tu número BASE</div>
+                        <div class="texto-Movil par">
+                            <p>Un número BASE es un número único que ha sido emitido desde principios de los 80s a personas que saltaban desde todos los cuatro objetos (Edificio (B), Antena (A), Arco (S), y Precipicios (E)). Aproximadamente unos 1400 números BASE han sido emitidos hasta la fecha. Nosotros te ayudaremos a conseguirlo organizandote los saltos desde diferentes objetivos.</p>
+                        </div>
+                        <div class="cajaVideo">
+                            <video class="video" poster="../img/logo.png" src="../video/base.mp4">
+                            </video>
+                            <div class="play">
+                            </div>
+                        </div>
+                        <div class="texto-Movil par">
+                            <p><span class="encabezamiento">Temporada</span> Durante todo el año, de lunes a domingo.
+                                <span class="encabezamiento">Duración</span> Medio día, por salto, preparación de la plataforma, salto y desmontaje de la plataforma. Debido a que se organiza con más personas puede que haya tiempo de espera antes y/o después de tu salto.
+                                <span class="encabezamiento">Condiciones especiales</span> El participante debe cumplir con lo siguiente a la hora de realizar la actividad:
+                                <ul>
+                                    <li>Imprescindible Licencia Federativa de Paracaidismo.</li>
+                                    <li>Es necesario tener al menos 18 años de edad.</li>
+                                    <li>Peso máximo vestido 100kg, altura máxima 2 metros.</li>
+                                    <li>No padecer dolencias cardíacas, o de huesos.</li>
+                                    <li>No estar embarazada.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <footer>
+            <div id="social-pie">
+
+                <a href="#">F</a>
+                <a href="#">K</a>
+                <a href="#">I</a>
+                <a href="#">N</a>
+            </div>
+
+            <div id="logo-pie"></div>
+
+            <div id="texto-pie">
+                <p>X Jump S.L.</p>
+                <p>910 129 958 / 687 596 158</p>
+                <p><a href="mailto:#">info@xjump.net</a>
+                </p>
+            </div>
+
+            <div id="enlaces-pie">
+                <a href="#">Privacidad</a> |
+                <a href="#">Cookies</a> |
+                <a href="#">Terminos de Uso</a>
+            </div>
+
+            <div id="copy-pie">
+                <small>Copyright &copy; 2015 X Jump S.L.</small>
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
